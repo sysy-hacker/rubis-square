@@ -3,7 +3,7 @@ import { increment, GameDefinition, defaultProcessClick, isAffectedByDefaultPoli
 describe('Game Service Test', (): void => {
   describe('Should increment correctly', (): void => {
     const testsCases = [
-      { nbColor: 2, value: 1, expectedValue: 10 },
+      { nbColor: 2, value: 1, expectedValue: 0 },
       { nbColor: 4, value: 1, expectedValue: 2 },
       { nbColor: 7, value: 6, expectedValue: 0 },
     ];
